@@ -71,6 +71,7 @@ const main = async ({ target }, { pkgData, baseDir }) => {
   }
 
   log('All done.')
+  process.exit(0)
 }
 
 // Run the main program.
