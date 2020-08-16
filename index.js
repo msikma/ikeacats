@@ -47,6 +47,7 @@ const main = async ({ target }, { pkgData, baseDir }) => {
     die('could not create target directory:', target)
   }
 
+  log(`Downloading IKEA catalogues. This will take around 12GB of space as of 2020-08-16.`)
   log('Retrieving PDF download URLs...')
   const catalogues = []
   const { listings } = catalogueData.sandbox
